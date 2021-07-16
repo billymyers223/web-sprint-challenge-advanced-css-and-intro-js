@@ -249,8 +249,8 @@ function get20s(arr) {
     for(let i = 0; i<arr.length; i++){
       num = arr[i].years.split('-');
       for(let j =0; j<num.length; num++){
-        if(num[i] >= 1900 && num[i] <= 2000){
-          arr1.push(num[i]);
+        if(num[j] >= 1900 && num[j] <= 2000){
+          arr1.push(arr[i].name);
         }
       }
     }
