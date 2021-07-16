@@ -297,7 +297,7 @@ function addArtist(arr) {
     name: 'Billy Myers', 
     years: '2001-2021',
     genre: 'Web Design', 
-    nationality: 'Hispanic',
+    nationality: 'Salvadoran',
     bio:'I love coding and have been doing it since my freshman year of highschool. I am excited for the opporunities Lambda School will give me'
   });
   return arr;
